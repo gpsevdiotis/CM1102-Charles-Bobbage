@@ -1,0 +1,170 @@
+/* Body */
+  body {
+    background-color: #dadada;
+    text-align: justify;
+  }
+/* */
+
+/* References */
+.references {
+    display: block;
+    position: absolute;
+    font-size: 15pt;
+    bottom: 1cm;
+    left: 1cm;
+    color: Black;
+  }
+
+.references:hover {
+    display: block;
+    position: absolute;
+    font-size: 15pt;
+    background: White;
+    color:blue;
+  }
+/* */
+
+/* Heading */
+  h1 {
+	 font-size: 70pt;
+   font-family: 'UnifrakturCook';
+	 color: Black;
+	 line-height: 20pt;
+  }
+/* */
+
+/* Paragraphs */
+  p1, p2, p3 {
+    font-size: 20pt;
+    color:black;
+    font-family: 'Asul';
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Asul';
+    margin: 0px;
+  }
+/* */
+
+/* Image */
+  img {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+
+  img:hover {
+    background-color: grey;
+  }
+/* */
+
+
+/* Table */
+
+  table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    height: 100%;
+    color: black;
+  }
+
+  table tr:nth-child(even){
+    background-color: #bfbfbf;
+  }
+
+  table tr:hover {
+    background-color: whitesmoke;
+  }
+
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: grey;
+    color: white;
+    top: 4cm;
+  }
+/* */
+
+/* Navigation Bar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    font-family: 'Asul';
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #8c8c8c;
+  }
+/* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+.middle2 {
+  width: 75%;
+}
+
+.left2, .right2 {
+  width: 25%;
+}
